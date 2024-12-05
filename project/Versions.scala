@@ -25,14 +25,6 @@ object Versions {
   val SparkJetty      = "9.3.27.v20190418"
   val SolrJ           = "8.3.0"
 
-  /*
-  val status = (versionInReapply: String, binaryInReapply: String) =>
-    println(s"""
-               |  Scala: $versionInReapply
-               |  Scala Binary: $binaryInReapply
-               |  Java: target=$JDK user=${Properties.javaVersion}
-               |  Cassandra version for testing: ${Testing.cassandraTestVersion} [can be overridden by specifying '-Dtest.cassandra.version=<version>']
-        """.stripMargin)
-
-   */
+  val ScalaCompat         = "2.11.0"
+  val ParallelCollections = "1.0.4"
 }
